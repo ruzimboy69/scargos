@@ -1,50 +1,89 @@
-.tabcontent {
+.section-video {
     font-family: sans-serif;
+    margin-bottom: 150px;
+   padding-top: 100px;
 }
-.tabcontent h1{
+
+.section-video h1 {
     color: blue;
+    margin-bottom: 50px;
 }
+.section-video .text-center .text1 {
+    margin-bottom: 60px;
+    opacity: 0.7;
+}
+
 .react-tabs {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.react-tabs .col-lg-8 {
+    padding: 0;
+    height: 450px;
+
+}
+
+.react-tabs .col-scroll {
+    height: 450px;
+    overflow-y: scroll;
+    text-align: left;
+    padding: 0;
+    background-color: #403f3f;
+    color: white;
+}
+
+.react-tabs .col-lg-3 .header {
+    padding: 10px 0;
 }
 
 .react-tabs__tab-list {
     flex-direction: column;
     margin: 0;
     padding: 0;
+
 }
 
 .react-tabs__tab {
-    font-size: 20px;
-    font-weight: 600;
-    text-align: left;
-    padding: 20px;
     list-style: none;
     cursor: pointer;
+
 }
 
-.react-tabs__tab--selected {
-    border: 1px solid black;
-    border-radius: 6px;
+.react-tabs__tab .d-flex {
+    justify-content: space-between;
+    text-align: left;
+    font-size: 14px;
+    padding: 20px;
+    border-top: 1px solid black;
+}
+
+.react-tabs__tab .number {
+    margin-right: 5px;
+}
+
+.react-tabs__tab .text {
+    width: 200px;
+}
+
+.react-tabs__tab .time {
+    margin-left: 5px;
+}
+
+.react-tabs__tab--selected .d-flex{
+    background-color: #0a53be;
 }
 
 .react-tabs__tab-panel {
     display: none;
-    margin-left: 50px;
 }
 
 .react-tabs__tab-panel--selected {
     display: block;
+    padding: 0;
+    margin: 0;
 }
 
-.react-tabs__tab {
-    padding-left: 24px;
-}
-
-.react-tabs__tab--selected {
-    padding-left: 21px;
-}
 
 .panel-content {
     text-align: center;
